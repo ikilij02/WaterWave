@@ -1,0 +1,429 @@
+@import url('http://fonts.cdnfonts.com/css/fredoka-one');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.box{
+    width: 1920px;
+    height: 463px;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+
+}
+
+.box h1{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+.navbar {
+    background-color: #1178FF;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.svg{
+    font-family: 'Fredoka One', sans-serif;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px 20px;
+    
+}
+.border{
+    display: flex;
+    text-align: center;
+}
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+    font-family: 'Fredoka One', sans-serif;
+    display: flex;
+    margin: auto;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #131313;
+    color:#fff;
+    border-radius: 40px;
+}
+.button2 {
+    display: flex;
+    vertical-align: auto;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: auto;
+    padding: 20px 20px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: #1178FF;
+    color:#fff;
+    
+   
+}
+.skills{
+    display: flexbox;
+    background: #1178FF;
+    height: 580px;
+    padding-top: 50px;
+    justify-content: center;
+    margin-bottom: 0px;
+    
+    
+}
+.services{
+    margin-top: 0px;
+}
+.border2{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+    
+}
+.border2 > div{
+    display: flex;
+    padding: 30px;
+}
+body{
+    
+    
+}
+.container{
+    
+}
+
+.button:hover {
+    background: #131313;
+    transition: all 0.3 ease;
+}
+
+.navbar__links:hover {
+    color: #131313;
+    transition: all 0.3 ease;
+}
+.mskills{
+    display: none;
+    justify-content: center;
+    background: #1178FF;
+    height: 1820px;
+    opacity: 0;
+
+}
+
+.mobile > div{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.top{
+    margin-top: 80px;
+}
+.mobile{
+    opacity: 0;
+}
+.services{
+    display: flex;
+    margin: 100px;
+}
+.mservices{
+    display:none;
+    justify-content: center;
+    margin: auto;
+
+}
+.contact{
+    display: flexbox;
+    justify-content: center;
+    vertical-align: center;
+    margin: auto;
+}
+.contact > h1{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    margin-bottom: 10px;
+    font-family: 'Fredoka One', sans-serif;
+    color: #1178FF;
+    font-size: 75px;
+    text-align: center;
+    
+
+}
+.contact > h2{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    margin-bottom: 30px;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+.contact_form > h1{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    text-align: center;
+}
+.contact_form{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    padding: 50px;
+    border: 10px solid #1178FF;
+    border-radius: 40px;
+    margin: 50px;
+
+}
+.form-control{
+    display: flex;
+    width: 900px;
+    height: 50px;
+    margin-bottom: 30px;
+    border: 6px solid #0851af;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+#msg{
+    height: 150px;
+    justify-content: center;
+    
+}
+#contact_form > h1{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    font-family: 'Fredoka One', sans-serif;
+    color: #1178FF;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+.form-control-submit{
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    margin: auto;
+    font-family: 'Fredoka One', sans-serif;
+    color: #fff;
+    margin-bottom: 5px;
+    border: 6px solid ;
+    font-size: 20px ;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #0851af;
+}
+.form-control-submit:hover{
+    background-color: #1178FF;
+}
+@media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+    .form-control{
+        display: flex;
+        width: 500px;
+        height: 50px;
+        margin-bottom: 30px;
+        border: 6px solid #0851af;
+        padding: 10px;
+        text-align: center;
+        border-radius: 20px;
+        margin: auto;
+        
+    }
+    
+    .skills{
+        display: none;
+    }
+    .mobile{
+        opacity: 100;
+    }
+    .mskills{
+        opacity: 100;
+        display: flex;
+    }
+    #services{
+        opacity: 0;
+        height: 0px;
+        margin: 0;
+    }
+    .mservices{
+        display:flex;
+       
+        
+
+    }
+    .navbar__menu {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: all 0.5s ease;
+        height: 50vh;
+        z-index: -1;
+        background: #131313;
+    }
+    .navbar__menu.active {
+        background: #131313;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 50vh;
+        font-size: 1.6rem;
+    }
+    
+    
+    #navbar__logo {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        height: 60px;
+    }
+    
+    .navbar__toggle .bar {
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: #fff;
+    }
+    
+    .navbar__item {
+        width: 100%;
+    }
+    
+    .navbar__links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+    
+    #mobile-menu {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+    }
+    
+    .navbar__btn {
+        padding-bottom: 2rem;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+  
+    .navbar__toggle .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
